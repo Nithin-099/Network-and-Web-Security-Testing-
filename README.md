@@ -1,5 +1,6 @@
 Network & Web Security Testing – Internship Project
 Network-and-Web-Security-Testing-
+
 📌 Overview
 
 This project documents a structured security assessment performed on a web application during my cybersecurity internship. The assessment focused on network reconnaissance, directory enumeration, and traffic analysis.
@@ -20,8 +21,6 @@ This project documents a structured security assessment performed on a web appli
 
 ● Nmap – Port Scanning
 
-● Dirb – Directory Brute-forcing
-
 ● Wireshark – Network Traffic Analysis
 
 ● Kali Linux
@@ -36,15 +35,7 @@ Findings: ● Open HTTP/HTTPS ports
 
 ● Service version detection
 
-📂 Phase 2 – Directory Brute Force -> dirb http://testphp.vulnweb.com/
-
-Findings: ● Hidden admin panel
-
-● Backup directory
-
-● Sensitive endpoints
-
-📡 Phase 3 – Traffic Interception & Analysis
+📡 Phase 2 – Traffic Interception & Analysis
 
 Analysis Focus: ● HTTP requests & responses
 
@@ -76,11 +67,12 @@ Issue	Severity	Impact
 Open Port Exposure	Medium	Attack surface increase
 Hidden Admin Panel	High	Unauthorized access risk
 Unencrypted Traffic	Critical	Credential interception
+
 ⚖️ Ethical Disclaimer
 
 This assessment was conducted under authorized internship supervision. The purpose of this project is educational documentation and defensive security awareness.
 
-🚀 Step 4: VERY IMPORTANT – Protect Yourself
+🚀 Step 3: VERY IMPORTANT – Protect Yourself
 
 Never: ❌ Put real domain name
 
