@@ -1,0 +1,2 @@
+nmap -Pn -p- testphp.vulnweb.com
+nmap -sV testphp.vulnweb.com
