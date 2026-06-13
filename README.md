@@ -29,7 +29,9 @@ This project documents a structured security assessment performed on a web appli
 
 Method: -> nmap -Pn -p- testphp.vulnweb.com
 
-Findings: ● Open HTTP/HTTPS ports
+Findings:
+
+● Open HTTP/HTTPS ports
 
 ● Additional exposed service (if any)
 
@@ -37,7 +39,9 @@ Findings: ● Open HTTP/HTTPS ports
 
 📡 Phase 2 – Traffic Interception & Analysis
 
-Analysis Focus: ● HTTP requests & responses
+Analysis Focus: 
+
+● HTTP requests & responses
 
 ● Unencrypted credentials
 
@@ -45,7 +49,9 @@ Analysis Focus: ● HTTP requests & responses
 
 ● Packet-level inspection
 
-🛑 Security Risks Identified ● Open unnecessary ports
+🛑 Security Risks Identified 
+
+● Open unnecessary ports
 
 ● Exposed sensitive directories
 
